@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    background-color: #009fff;
+}
+
+.head h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+
+.resume-body{
+    width: 100%;
+    height: 89.4vh;
+    background-color: #ffffff;
+    display: flex;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.resume-body .left{
+    width: 30%;
+    height: 643px;
+    background-color: #dfe4ea;
+    border-radius: 8px;
+}
+.resume-body .left h2{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.resume-body .left img{
+    max-width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+.resume-body .short-data-table table{
+    width: 100%;
+    margin-top: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.resume-body .short-data-table table tr{
+    height: 40px;
+}
+.resume-body .short-data-table table td{
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.resume-body .right{
+    width: 60%;
+    background-color: #dfe4ea;
+    margin-left: 70px;
+    height: 643px;
+    border-radius: 8px;
+}
+
+.resume-body .right .container{
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.resume-body .right h2{
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.resume-body .right .data-table table{
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0 10px;
+}
+
+.resume-body .right .data-table table tr{
+    height: 40px;
+}
+
+.resume-body .right .data-table table td{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.resume-body .right .description{
+    margin-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0 10px;
+}
+.resume-body .right .description h2{
+    text-transform: none;
+    margin-top: 20px;
+}
+
+.resume-body .right .description .links ol{
+    margin-left: 10px;
+}
+
+
+.bold{
+    font-weight: bolder;
+}
+a{
+    text-transform: lowercase;
+    color: blue;
+}
+
